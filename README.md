@@ -3,7 +3,7 @@
 
 
 <p align="center">
-<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SS.width-1300.jpg" alt="Gemini AI" width="450">
+<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SS.width-1300.jpg" alt="Gemini AI" width="600">
 </p>
 
 This is a simple Gemini clone built using React and TypeScript. The project aims to mimic some functionalities of Google's Gemini AI with a minimalistic and responsive UI.
