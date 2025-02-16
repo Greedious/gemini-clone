@@ -1,50 +1,70 @@
-# React + TypeScript + Vite
+# Gemini Clone - React TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+<img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SS.width-1300.jpg" alt="Gemini AI" width="600">
+</p>
 
-## Expanding the ESLint configuration
+This is a simple Gemini clone built using React and TypeScript. The project aims to mimic some functionalities of Google's Gemini AI with a minimalistic and responsive UI.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- Chat interface for user interaction
+- API integration for AI responses
+- Responsive design using Tailwind CSS
+- TypeScript for type safety
+- State management with React Context API
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
+- React (TypeScript)
+- Responsive CSS design
+- React Router
+- OpenAI API / Gemini API (optional for AI responses)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Greedious/gemini-clone.git
+   cd gemini-clone
+   ```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+
+## Configuration
+
+Create a `.env` file in the root directory and add your API key:
+```
+VITE_GEMINI_API_KEY=your_api_key_here
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Build & Deployment
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+To create a production build:
+```sh
+npm run build
 ```
+
+To preview the build locally:
+```sh
+npm run preview
+```
+
+## Contributing
+Feel free to fork this repository and submit pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+
+## Screenshots
+
+<p align="center">
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/084/204/datas/original.jpg" alt="Gemini AI" width="600">
+</p>
