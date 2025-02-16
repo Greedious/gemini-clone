@@ -66,7 +66,6 @@ This project is licensed under the MIT License.
 ## Screenshots
 
 <p align="center">
-<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/084/204/datas/original.jpg
-" alt="Gemini AI" width="600">
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/084/204/datas/original.jpg" alt="Gemini AI" width="600">
 </p>
 
